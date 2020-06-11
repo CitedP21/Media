@@ -1,5 +1,5 @@
 img{
-    border: 2px solid silver;
+    border: 2px solid black;
     width: 300px;
     height: 300px;
     float: left;
@@ -22,7 +22,7 @@ h1{
 }
 
 body{
-    background: silver;
+    background: white;
     font: 16px Helvetica;  
 }
 
@@ -39,7 +39,7 @@ body{
     padding-left: 5px;
     border: 1px solid black;
     border-radius: 7px;
-    background: grey;
+    background: lightgray;
     flex: 3 1 60%;
     order: 2;
 }
@@ -47,7 +47,7 @@ body{
 .description{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    border: 2px solid brown;
+    border: 2px solid black;
     border-top: 22px solid black;
     padding: 2px;
 }
@@ -55,9 +55,9 @@ body{
 #main nav{
     margin: 4px;
     padding: 5px;
-    border: 1px solid maroon;
+    border: 1px solid black;
     border-radius: 7px;
-    background: aquamarine;
+    background: white;
     flex: 1 6 20%;
     order: 1;
     text-align: center;
@@ -78,7 +78,7 @@ h2{
     margin: 0px;
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: gray;
     min-height: 30px;
     height: 40px;
 }
@@ -86,9 +86,9 @@ h2{
 #main aside{
     margin: 4px;
     padding: 5px;
-    border: 1px solid maroon;
+    border: 1px solid black;
     border-radius: 7px;
-    background: aquamarine;
+    background: white;
     flex: 1 6 20%;
     order: 3;
 }
@@ -100,5 +100,5 @@ header, footer{
     min-height: 100px;
     border: 1px solid black;
     border-radius: 7px;
-    background: burlywood;
+    background: gray;
 }
