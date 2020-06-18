@@ -29,9 +29,21 @@ body{
 #main{
     min-height: 800px;
     margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-flow: row;
+    padding: 0px;           /* R2// Al experimentar con los displays, block, inline-block y none, los cambios observados fueron los siguientes: */
+    display: flex;          /* block: Genera un cuadro de elemento de bloque donde se hospeda el div*/
+    flex-flow: row;         /*inline-block: Genera una caja en la que todos los elementos circundantes se hospedan como si fueran una sola linea*/
+}                           /*none: vuelve el div y su contenido completamente invisible, descartandolo del codigo*/
+
+#new{
+ height: 100px;
+ width: 100px;
+ padding: 10px;
+ border: 5px;
+}
+
+#new img{
+    height: 100px;
+    width: 100px;
 }
 
 #main article{
@@ -42,6 +54,11 @@ body{
     background: lightgray;
     flex: 3 1 60%;
     order: 2;
+}
+
+#main img{
+    height: 100px;
+    width: 100px;
 }
 
 .description{
